@@ -1,0 +1,39 @@
+h1, h2, h3 {
+    font-family: 'Rancho';
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+}
+
+/* Menu */
+.menu-nav ul {
+    font-family: "Libre Franklin";
+}
+
+.menu-nav h1 {
+    font-size: 96px;
+    font-weight: 400;
+}
+
+/* Pagina um */
+.about span {
+    color: #2A9D8F;
+}
+
+
+.bnt button {
+    border: none;
+    padding: 0 20px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+
+    background-color: #E76F51;
+    color: #fff; 
+}

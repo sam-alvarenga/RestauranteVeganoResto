@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Menu */
+.conatiner {
+    width: 1440px;
+    text-align: center;
+    margin: 0 auto;
+
+
+}
+
+.menu-nav {
+    width: 100%;
+
+}
+
+.menu-nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+    list-style: none;
+    align-items: center;
+}
+
+.pageone {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.about {
+  width: 50%; 
+  
+}
+
+.bnt {
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+
+div.dish{
+    width: 50%;
+}
+
+.dish img {
+    width: 400px;
+    height: 550px;
+}
