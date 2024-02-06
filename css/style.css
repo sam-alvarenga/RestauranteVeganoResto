@@ -5,11 +5,10 @@
 }
 
 /* Menu */
-.conatiner {
+.container {
     width: 1440px;
     text-align: center;
     margin: 0 auto;
-
 
 }
 
@@ -23,10 +22,15 @@
     justify-content: space-around;
     margin: 15px;
     align-items: center;
+    list-style: none;
+
+
 }
 
 .menu-nav a {
     padding: 0 45px;
+
+
 }
 
 /* Inicio da Pagina */
@@ -35,9 +39,9 @@
 .pageone {
     display: flex;
     width: 100%;
-    justify-content: center;
-  
-   
+    justify-content: space-between;
+
+
 }
 
 .about {
@@ -46,59 +50,102 @@
     justify-content: space-around;
     width: 50%;
     padding: 150px 0;
+    align-items: flex-start;
 
 }
 
 .about h4 {
-    margin-left: 120px;
+    margin-left: 115px;
 
 }
 
-.btn-input {
+div.btn-input {
     display: flex;
     margin-left: 120px;
+
 }
 
-.btn-input button {
+div.btn-input button {
     border: none;
     border-radius: 10px;
     background-color: #E76F51;
     color: #fff;
-    width: 100px;
+    width: 140px;
     height: 45px;
     box-shadow: 5px 5px 15px 0px #F4A261;
+    cursor: pointer;
+    padding: 0 15px;
+    font-size: 20px;
 
 }
 
-.btn-input p {
-    margin: 15px 85px;
+div.btn-input p {
+    padding: 10px 30px;
+    cursor: pointer;
+    margin: 0 35px;
+    align-items: center;
 
 }
 
-.icons {
+div.btn-input p:hover {
+    background-color: rgba(114, 113, 113, 0.507);
+    transition-duration: 0.8s;
+    border-radius: 10px;
+}
+
+div.icons {
     display: flex;
     width: 488px;
     justify-content: space-around;
-    margin-left: 120px;
+    margin-left: 65px;
+}
+
+div.icons ion-icon {
+    padding: 0 40px;
 
 }
 
-.icon {
+div.icons .leaf, .rocket {
+    border-right: 1px solid #000;
+
+}
+
+div.icon {
     display: flex;
     flex-direction: column;
+    font-size: 45px;
     align-items: center;
-    font-size: 50px;
 }
 
-.icon p {
-    font-size: 20px;
+.dish {
+    width: 50%;
+    position: relative;
+
 }
 
+div.dish .arrow1 {
+    position: absolute;
+    font-size: 3em;
+    left: 15%;
+    bottom: 2%;
+    padding: 0 20px;
+    background-color: rgba(255, 255, 255, 0.404);
+    cursor: pointer;
 
-.dish {}
+}
+
+div.dish .arrow2 {
+    position: absolute;
+    font-size: 3em;
+    right: 15%;
+    bottom: 2%;
+    background-color: rgba(255, 255, 255, 0.404);
+    padding: 0 20px;
+    cursor: pointer;
+
+}
 
 .dish img {
     width: 600px;
     height: 837px;
-
 }
