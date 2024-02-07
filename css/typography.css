@@ -1,13 +1,14 @@
 h1, h2, h3 {
     font-family: 'Rancho';
     color: black;
+    text-align: center;
+
 }
 
-h4 {
+h4, h5 {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 48px;
-    font-weight: 300;
     color: black;
+
 }
 
 /* Menu */
@@ -28,6 +29,13 @@ h4 {
 }
 
 /* Pagina um */
+
+.about h4 {
+    font-weight: 300;
+    font-size: 48px;
+    color: black;
+}
+
 .about span {
     color: #2A9D8F;
     font-weight: 800;
@@ -44,4 +52,41 @@ div.btn-input p {
     font-family: "Libre Franklin";
     font-size: 15px;
     padding: 15px;
+}
+
+/* Pagina dois  */
+
+section.pagetwo h2 {
+    font-size: 64px;
+}
+
+section.pagetwo h4 {
+    color: #E76F51;
+    font-size: 24px;
+}
+
+.yorkut h4 {
+    color: #E76F51;
+    font-size: 24px;
+
+}
+
+div.yorkut h5 {
+    font-size: 42px;
+}
+
+div.yorkut p {
+    font-size: 15px;
+    margin: 25px 0;
+
+}
+
+div.preco a {
+    border: 1px solid #2A9D8F; 
+    background-color:#2A9D8F ;
+    color: #fff;
+    border-radius: 15px;
+    padding: 10px 35px;
+    text-decoration: none;
+    
 }

@@ -123,6 +123,11 @@ div.icon {
 
 }
 
+.dish img {
+    width: 600px;
+    height: 837px;
+}
+
 div.dish .arrow1 {
     position: absolute;
     font-size: 3em;
@@ -145,7 +150,43 @@ div.dish .arrow2 {
 
 }
 
-.dish img {
-    width: 600px;
-    height: 837px;
+
+/* Pagina 2 sobremesas  */
+
+section.pagetwo {
+    width: 100%;
+    background-color: #EFEFEF;
+    padding: 90px 0;
+
+}
+
+div.desserts1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+div.yorkut {
+    width: 30%;
+    text-align: justify;
+    margin-top: 10%;
+
+
+}
+
+div.yorkut h4, h5 {
+    text-align: left;
+    border-bottom: 1px solid black;
+    padding: 25px 0;
+
+}
+
+div.preco p {
+    font-size: 155px;
+    margin: 25px 0;
+
+}
+
+div.preco a {   
+    padding: 10px 35px;
+  
 }
