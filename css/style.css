@@ -211,18 +211,29 @@ div.almoco h4, div.almoco h5 {
 footer {
     width: 100%;
     background-color: #333333;
-    text-align: justify;
-    padding: 55px;
 }
 
-footer .info p {
-    width: 40%;
-    padding: 35px 0;
+footer .footer-info {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 60px 118px;
 }
 
-footer .redes-sociais {
-    width: 30%;
-    color: #fff;
-    padding: 35px 0;
-
+footer .footer-info .info {
+    width: 35%;
 }
+
+footer .footer-info .horarios {
+    width: 35%;
+}
+
+footer .footer-info .direcao {
+    width: 35%;
+}
+
+footer .tel {
+    padding: 20px 0;
+}
+
+.direcap

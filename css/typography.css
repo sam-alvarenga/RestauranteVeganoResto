@@ -59,6 +59,7 @@ div.btn-input p {
 
 section.pagetwo h2 {
     font-size: 64px;
+    font-weight: 400;
 }
 
 section.pagetwo h4 {
@@ -101,18 +102,66 @@ div.preco1 a, div.preco2 a {
 
 /* FOOTER */
 
-footer div.info h5 {
+footer .footer-info h2 {
     font-size: 96px;
     color: #FEFEFE;
-    font-family: 'Rancho';
+    text-align: start;
+    font-weight: 400;
 }
 
-footer div.info p {
+footer div.footer-info p, footer .footer-info li {
     color: #FFF;
-    font-family: "Libre Franklin";
-    font-size: 18px;
+    font-weight: 300;
 }
 
-footer .redes-sociais {
-    font-size: 45px;
+footer .footer-info .info p {
+    text-align: start;
+    padding: 45px 0;
 }
+
+footer .footer-info .redes-sociais ion-con {
+    color: #fff;
+    font-size: 50px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+footer .footer-info .redes-sociais icon-icon:hover {
+    color: #E76F51;
+    transition: 0.5s;
+}
+
+footer .footer-info h4 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #E76F51;
+    border-bottom: 1px solid #fff;
+    width: 40%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+footer div.horarios ul li {
+    line-height: 50px;
+    list-style: none;
+}
+
+footer .tel ion-icon {
+    color: #fff;
+    font-size: 30px;
+    margin-right: 8px;
+    margin-bottom: -8px;
+}
+
+footer .tel a:hover{
+    color: #E76F51;
+    transition: 0.5s;
+}
+
+footer .tel a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+}
+
