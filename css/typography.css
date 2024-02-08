@@ -54,7 +54,8 @@ div.btn-input p {
     padding: 15px;
 }
 
-/* Pagina dois  */
+/*-- Pagina dois---  */
+/*-- Sobremesa---- */
 
 section.pagetwo h2 {
     font-size: 64px;
@@ -71,22 +72,47 @@ section.pagetwo h4 {
 
 }
 
-div.yorkut h5 {
+div.yorkut h5, div.almoco h5 {
     font-size: 42px;
 }
 
-div.yorkut p {
+div.yorkut p, div.almoco p {
     font-size: 15px;
     margin: 25px 0;
+    font-family: "Libre Franklin";
 
 }
 
-div.preco a {
-    border: 1px solid #2A9D8F; 
-    background-color:#2A9D8F ;
+div.preco1 p, div.preco2 p {
+    font-size: 24px;
+    padding: 10px 0;
+    font-family: "Libre Franklin";
+}
+
+div.preco1 a, div.preco2 a {
+    border: 1px solid #2A9D8F;
+    background-color: #2A9D8F;
     color: #fff;
     border-radius: 15px;
     padding: 10px 35px;
     text-decoration: none;
-    
+
+}
+
+/* FOOTER */
+
+footer div.info h5 {
+    font-size: 96px;
+    color: #FEFEFE;
+    font-family: 'Rancho';
+}
+
+footer div.info p {
+    color: #FFF;
+    font-family: "Libre Franklin";
+    font-size: 18px;
+}
+
+footer .redes-sociais {
+    font-size: 45px;
 }
